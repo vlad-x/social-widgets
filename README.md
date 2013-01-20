@@ -38,17 +38,23 @@ Likes, shares and things like that.
   <tr>
     <td>Google Plus</td>
     <td>https://plus.google.com/share?url=http://google.com</td>
-    <td>[link](https://developers.google.com/+/plugins/share/#sharelink)</td>
+    <td>
+      <a href="https://developers.google.com/+/plugins/share/#sharelink">link</a>
+    </td>
   </tr>
   <tr>
     <td>Linked In</td>
     <td>http://www.linkedin.com/shareArticle?url=http://google.com</td>
-    <td>[link](https://developer.linkedin.com/documents/share-linkedin)</td>
+    <td>
+      <a href="https://developer.linkedin.com/documents/share-linkedin">link</a>
+    </td>
   </tr>
   <tr>
     <td>VK</td>
     <td>http://vkontakte.ru/share.php?url=http://google.com</td>
-    <td>[link](http://vk.com/developers.php?oid=-17680044&p=Share)</td>
+    <td>
+      <a href="http://vk.com/developers.php?oid=-17680044&p=Share">link</a>
+    </td>
   </tr>
   <tr>
     <td>Odnoklassniki</td>

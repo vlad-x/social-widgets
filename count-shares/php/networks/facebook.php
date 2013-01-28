@@ -6,7 +6,11 @@ function get_counter_number__facebook( $url ) {
     $check_url = $CHECK_URL_PREFIX . $url;
 
     $data   = file_get_contents( $check_url );
-    $shares = json_decode( $data ) -> shares;
+
+    $shares = null;
+    if ( isset(json_decode($data) -> shares) ) {
+        $shares = json_decode($data) -> shares;
+    };
 
     $shares === null ? $shares = 0: false;
 

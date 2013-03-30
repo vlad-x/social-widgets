@@ -68,12 +68,6 @@ Likes, shares and things like that.
 <a name='count-shares'></a>
 ## count-shares
 
-### JavaScript (node.js)
-
-<a href="https://github.com/clexit/social-widgets/tree/master/count-shares/javascript%20(nodejs)/count-shares">See README here.</a>
-
-### PHP
-
 Returns JSON with a number of shares for a page.
 
 ```
@@ -86,16 +80,23 @@ Returns JSON with a number of shares for a page.
 }
 ```
 
+### JavaScript (node.js)
 
-### API
+`npm install count-shares`
+
+<a href="https://github.com/clexit/social-widgets/tree/master/count-shares/javascript%20(nodejs)/count-shares">See README here.</a>
+
+### PHP
+
+#### API
 
 Example: `/shares/php/main.php?url=http://www.google.com&networks=facebook,twitter`
 
-#### url (required)
+##### url (required)
 
 `www.domain.com` and `domain.com` are different websites for Twitter and Odnoklassniki.
 
-#### networks
+##### networks
 
 Comma separated. `facebook`, `twitter`, `linkedin`, `vk` or `odnoklassniki`.
 

@@ -22,7 +22,7 @@ countShares.get( 'http://google.com', function( err, result ) {  } );
 
 ## Methods
 
-### get( url, callback, networks )
+### get( url, callback[, networks] )
 
 `url`: {String} full URL. `www.domain.com` and `domain.com` are different websites for Twitter and Odnoklassniki.
 

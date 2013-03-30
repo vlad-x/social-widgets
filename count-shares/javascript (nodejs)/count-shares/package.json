@@ -1,0 +1,36 @@
+{
+  "name": "count-shares",
+  "version": "1.0.0",
+  "description": "Returns JSON with a number of shares for a URL",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "get-bunch": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clexit/social-widgets"
+  },
+  "keywords": [
+    "shares",
+    "count",
+    "likes",
+    "tweets",
+    "social",
+    "networks",
+    "facebook",
+    "vk",
+    "vkontakte",
+    "odnoklassniki",
+    "twitter",
+    "linkedin"
+  ],
+  "author": "clexit <clexit@clexit.com>",
+  "license": "BSD"
+}

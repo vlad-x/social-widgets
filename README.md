@@ -68,6 +68,12 @@ Likes, shares and things like that.
 <a name='count-shares'></a>
 ## count-shares
 
+### JavaScript (node.js)
+
+<a href="https://github.com/clexit/social-widgets/tree/master/count-shares/javascript%20(nodejs)/count-shares">See README here.</a>
+
+### PHP
+
 Returns JSON with a number of shares for a page.
 
 ```

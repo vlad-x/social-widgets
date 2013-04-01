@@ -14,6 +14,8 @@ Likes, shares and things like that.
 <a name='share'></a>
 ## share
 
+Example: https://facebook.com/sharer/sharer.php?u=http://google.com
+
 <table>
   <tr>
     <th>Network</th>
@@ -22,43 +24,53 @@ Likes, shares and things like that.
   </tr>
   <tr>
     <td>Facebook</td>
-    <td>https://facebook.com/sharer/sharer.php?u=http://google.com</td>
+    <td>https://facebook.com/sharer/sharer.php?u={{LINK}}</td>
     <td></td>
   </tr>
   <tr>
     <td>Twitter</td>
-    <td>http://twitter.com/share?url=http://google.com</td>
+    <td>http://twitter.com/share?url={{LINK}}</td>
     <td></td>
   </tr>
   <tr>
     <td>Twitter</td>
-    <td>https://twitter.com/intent/tweet?url=http://google.com</td>
+    <td>https://twitter.com/intent/tweet?url={{LINK}}</td>
     <td></td>
   </tr>
   <tr>
     <td>Google Plus</td>
-    <td>https://plus.google.com/share?url=http://google.com</td>
+    <td>https://plus.google.com/share?url={{LINK}}</td>
     <td>
       <a href="https://developers.google.com/+/plugins/share/#sharelink">link</a>
     </td>
   </tr>
   <tr>
     <td>Linked In</td>
-    <td>http://www.linkedin.com/shareArticle?url=http://google.com</td>
+    <td>http://www.linkedin.com/shareArticle?url={{LINK}}</td>
     <td>
       <a href="https://developer.linkedin.com/documents/share-linkedin">link</a>
     </td>
   </tr>
   <tr>
     <td>VK</td>
-    <td>http://vkontakte.ru/share.php?url=http://google.com</td>
+    <td>http://vkontakte.ru/share.php?url={{LINK}}</td>
     <td>
       <a href="http://vk.com/developers.php?oid=-17680044&p=Share">link</a>
     </td>
   </tr>
   <tr>
     <td>Odnoklassniki</td>
-    <td>http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://google.com</td>
+    <td>http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl={{LINK}}</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Yandex</td>
+    <td>http://share.yandex.ru/go.xml?service=yaru&url={{LINK}}&title={{TITLE}}&body={{TEXT}}</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Livejournal</td>
+    <td>http://www.livejournal.com/update.bml?subject={{TITLE}}&event={{TEXT}}&prop_taglist={{TAGS}}&href={{LINK}}</td>
     <td></td>
   </tr>
 </table>

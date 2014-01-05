@@ -20,6 +20,14 @@ module.exports = {
         }
     },
 
+    
+    pinterest: {
+        url : 'http://api.pinterest.com/v1/urls/count.json?url=',
+        parse: function( res ) {
+            return JSON.parse(res.match(/receiveCount\((.*?)\)$/)[1]).count / 1;
+	}
+    },
+
     twitter: {
         url  : 'http://urls.api.twitter.com/1/urls/count.json?url=',
         parse: function( res ) {

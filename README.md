@@ -88,6 +88,7 @@ Returns JSON with a number of shares for a page.
     "twitter": 11876867,
     "vk": 2462,
     "odnoklassniki": 547,
+    "pinterest": 60,
     "linkedin": 18113
 }
 ```
@@ -110,6 +111,6 @@ Example: `/shares/php/main.php?url=http://www.google.com&networks=facebook,twitt
 
 ##### networks
 
-Comma separated. `facebook`, `twitter`, `linkedin`, `vk` or `odnoklassniki`.
+Comma separated. `facebook`, `twitter`, `linkedin`, `pinterest`, `vk` or `odnoklassniki`.
 
 Default: Facebook and Twitter.

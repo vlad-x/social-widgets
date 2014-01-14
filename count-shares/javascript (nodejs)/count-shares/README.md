@@ -8,6 +8,7 @@ Returns JSON with a number of shares for a URL.
     "twitter": 11876867,
     "vk": 2462,
     "odnoklassniki": 547,
+    "pinterest": 60,
     "linkedin": 18113
 }
 ```
@@ -28,4 +29,4 @@ countShares.get( 'http://google.com', function( err, result ) {  } );
 
 `callback( err, result )`: {Function} callback that will get the results and errors (if any)
 
-`networks`: (optional) {Array} or {String} available networks: facebook, twitter, linkedin, odnoklassniki, vk (vkontakte). Need more? <a href="https://github.com/clexit/social-widgets">Contribute!</a>
+`networks`: (optional) {Array} or {String} available networks: facebook, twitter, linkedin, odnoklassniki, pinterest, vk (vkontakte). Need more? <a href="https://github.com/clexit/social-widgets">Contribute!</a>

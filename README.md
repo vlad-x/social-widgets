@@ -105,7 +105,7 @@ Returns JSON with a number of shares for a page.
 
 #### API
 
-Example: `/shares/php/main.php?url=http://www.google.com&networks=facebook,twitter`
+Example: `./count-shares/php/main.php?url=http://www.google.com&networks=facebook,twitter`
 
 ##### url (required)
 

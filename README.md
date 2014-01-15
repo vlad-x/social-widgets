@@ -1,5 +1,7 @@
 # Social widgets
 
+[![Build Status](https://travis-ci.org/clexit/social-widgets.png?branch=master)](https://travis-ci.org/clexit/social-widgets)
+
 Likes, shares and things like that.
 
 

@@ -116,3 +116,7 @@ Example: `./count-shares/php/main.php?url=http://www.google.com&networks=faceboo
 Comma separated. `facebook`, `twitter`, `linkedin`, `pinterest`, `vk` or `odnoklassniki`.
 
 Default: Facebook and Twitter.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/clexit/social-widgets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

@@ -32,12 +32,12 @@ Example: https://facebook.com/sharer/sharer.php?u=http://google.com
   <tr>
     <td>Twitter</td>
     <td>http://twitter.com/share?url={{LINK}}</td>
-    <td></td>
+    <td><a href="https://about.twitter.com/resources/buttons">link</a></td>
   </tr>
   <tr>
     <td>Twitter</td>
     <td>https://twitter.com/intent/tweet?url={{LINK}}</td>
-    <td></td>
+    <td><a href="https://about.twitter.com/resources/buttons">link</a></td>
   </tr>
   <tr>
     <td>Google Plus</td>

@@ -9,6 +9,7 @@ Likes, shares and things like that.
 ## Table Of Contents
 
 * [share](#share)
+* [history api](#historyapi)
 * [count-shares](#count-shares) (JSON with number of shares)
 
 
@@ -74,6 +75,35 @@ Example: https://facebook.com/sharer/sharer.php?u=http://google.com
     <td>Livejournal</td>
     <td>http://www.livejournal.com/update.bml?subject={{TITLE}}&event={{TEXT}}&prop_taglist={{TAGS}}&href={{LINK}}</td>
     <td></td>
+  </tr>
+</table>
+
+
+
+<a name='historyapi'></a>
+## history api (reloading social widgets)
+
+<table>
+  <tr>
+    <th>Network</th>
+    <th>What to do</th>
+  </tr>
+  <tr>
+    <td>Twitter</td>
+    <td>
+      <ul>
+        <li>
+          Replace the old button with HTML code from Twitter documentation (see the link in the table above).<br/>
+          
+          Example:
+          <pre><code>&lt;a href="https://twitter.com/share"
+   class="twitter-share-button"
+   data-url="' + window.location.href + '">Tweet&lt;/a></li>
+          </code></pre>
+        </li>
+        <li>Call <code>twttr.widgets.load();</code></li>
+      </ul>
+    </td>
   </tr>
 </table>
 

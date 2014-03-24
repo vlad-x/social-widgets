@@ -28,7 +28,10 @@ Example: https://facebook.com/sharer/sharer.php?u=http://google.com
   <tr>
     <td>Facebook</td>
     <td>https://facebook.com/sharer/sharer.php?u={{LINK}}</td>
-    <td></td>
+    <td>
+      <a href="https://developers.facebook.com/docs/plugins/share-button/">share</a>,
+      <a href="https://developers.facebook.com/docs/plugins/like-button/">like</a>
+    </td>
   </tr>
   <tr>
     <td>Twitter</td>

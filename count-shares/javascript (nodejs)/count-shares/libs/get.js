@@ -99,9 +99,12 @@ function getRequests( url, networks ) {
 
 function parseResults( results ) {
     var parsedResults = {};
-
-    for ( var key in results ) {
-        parsedResults[ key ] = NETWORKS[ key ].parse( results[key] );
+    try {
+        for ( var key in results ) {
+            parsedResults[ key ] = NETWORKS[ key ].parse( results[key] );
+        }
+    } catch(e) {
+        callback( 'Error parsing results', e );
     }
 
     return parsedResults;

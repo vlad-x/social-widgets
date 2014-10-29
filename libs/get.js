@@ -99,12 +99,13 @@ function getRequests( url, networks ) {
 
 function parseResults( results ) {
     var parsedResults = {};
-    try {
-        for ( var key in results ) {
+
+    for ( var key in results ) {
+        try {
             parsedResults[ key ] = NETWORKS[ key ].parse( results[key] );
+        } catch(e) {
+            console.log( 'Error parsing results', e );
         }
-    } catch(e) {
-        callback( 'Error parsing results', e );
     }
 
     return parsedResults;

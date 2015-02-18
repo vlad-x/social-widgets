@@ -104,7 +104,7 @@ function parseResults( results ) {
         try {
             parsedResults[ key ] = NETWORKS[ key ].parse( results[key] );
         } catch(e) {
-            console.log( 'Error parsing results', e );
+            console.log( 'Error parsing results', e, key );
         }
     }
 

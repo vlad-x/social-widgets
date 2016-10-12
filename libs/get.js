@@ -88,7 +88,7 @@ function getRequests( url, networks ) {
 
         requests.push({
             name: network,
-            url : NETWORKS[ network ].url + ( (network==='facebook')?"'"+url+"'":url ),
+            url : NETWORKS[ network ].url + url,
             type: 'plain'
         });
     });

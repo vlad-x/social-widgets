@@ -3,7 +3,7 @@ module.exports = {
         url  : 'http://graph.facebook.com/',
         parse: function( res ) {
             var data = JSON.parse( res ).share;
-            return data.comment_count + data.share_count;
+            return data ? data.comment_count + data.share_count : 0;
         }
     },
 
